@@ -3,34 +3,70 @@ body{
 	font-family: 'Open Sans', sans-serif;
 /*	font-family: 'Dosis', sans-serif;*/
 }
+
+/*TITULOS*/
 h1{
-	font-size: 60px;
+	font-size: 30px;
+	/*font-family: 'Roboto Slab', serif;*/
+	font-family: 'Sanchez', serif;
 }
+h2{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: lighter;
+	font-size: 30px;
+}
+
+h1,h2,h3,h4,h5{
+	font-family: 'Sanchez', serif;
+}
+.logo{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+}
+.sanchez{
+	font-family:'Sanchez', serif;
+}
+.fz{
+	font-size: 20px;
+}
+
+/*LISTAS*/
 ul li{
 	display: inline-block;
 	padding-right: 10px;
-
+	font-family: 'Sanchez', serif;
+}
+a:hover{
+	color: #FF0080;
 }
 .inl-bloc{
 	display: inline-block;
-
 }
+
+/*BACKGROUNDS*/
 .bg-black{
-	background-color: black;
+	background-color: #2E2E2E;
 
 }
 .bg-white{
 	background-color: white;
 }
-h1{
-	font-size: 40px;
-}
+
+
+
+/*BOTONES*/
+
 .red-mor{
 	background-color: gray;
 	width: 150px;
 	height: 50px;
 	border-radius: 50px;
 }
+.red-mor:hover,.red-mor2:hover{
+	color: white;
+	background-color: #BF00FF;
+}
+
 .red-mor2{
 	background-color: gray;
 	width: 60px;
@@ -38,57 +74,31 @@ h1{
 	border-radius: 50px;
 	margin-left: 80px;
 }
-.mt-5{
-	margin-top: 5%;
+.red-mor3{
+	background-color: gray;
+	width: 40px;
+	height: 20px;
+	border-radius: 50px;
+	font-size: 11px;
+	padding-top: 2px;
 }
+
 hr{
 	border-style: dotted;
 }
-.pt-2{
-	padding-top: 2%;
-}
-.pt-10{
-	padding-top: 10%;
-}
-.pajaro{
-	width: 100px;
-	height: 100px;
-	background-color: gray;
-	border-radius: 100px;
-	padding-top: 40px;
+footer hr{
+	color: gray;
+	border-style: solid;
+	opacity: 0.2;
 }
 .pink{
 	color: #FF0080;
-
 }
 .bor-rad{
 	border-radius: 100px;
 	border:1px gray dashed;
 	width: 30px;
 	height: 30px;
-}
-.pl-3{
-	padding-left: 3%;
-}
-.circulo{ 
-	width: 20px;
-	height: 20px;
-	background-color: gray;
-	border-radius: 100px;
-
-}
-.pl-10{
-	padding-left: 10%;
-}
-.pb-10{
-	padding-bottom: 10%;
-}
-.pd-0{
-	padding: 0%;
-}
-.linea{
-	border: solid white 1px;
-	opacity: 0.3;
 }
 
 .footer-p{
@@ -101,6 +111,7 @@ hr{
 	font-size: 30px;
 	color: 
 }
+
 input{
 	width: 300px;
 	height: 40px;
@@ -117,6 +128,36 @@ ul li a i{
 	padding:8px;
 }
 
+
+
+/*MARGINS Y PADDINGS EXTRAS*/
+
+.pl-3{
+	padding-left: 3%;
+}
+.pl-1{
+	padding-left: 1%;
+}
+.pl-10{
+	padding-left: 10%;
+}
+.pd-0{
+	padding: 0%;
+}
+.pb-10{
+	padding-bottom: 10%;
+}
 .pt-1{
 	padding-top: 1%;
 }
+.pt-2{
+	padding-top: 2%;
+}
+.pt-10{
+	padding-top: 10%;
+}
+
+.mt-5{
+	margin-top: 5%;
+}
+
